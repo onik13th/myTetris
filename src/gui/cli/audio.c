@@ -46,7 +46,7 @@ void loadMusic(SoundController *audioManager) {
     audioManager->music = NULL;
   }
 
-  audioManager->music = Mix_LoadMUS("../sound/my_tetris_sound.mp3");
+  audioManager->music = Mix_LoadMUS("../../sound/my_tetris_sound.mp3");
   if (audioManager->music == NULL) {
     fprintf(stderr, "Mix_LoadMUS Error: %s\n", Mix_GetError());
     // cleanupMusic(gameInfo); // освобождаем ресурсы в случае ошибки
