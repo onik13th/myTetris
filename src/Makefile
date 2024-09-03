@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -Werror -std=c11
-LDFLAGS = -lSDL2 -lSDL2_mixer # -lncurses или -lncursesw добавляется в зависимости от ОС
+LDFLAGS = -lSDL2 -lSDL2_mixer# -lncurses или -lncursesw добавляется в зависимости от ОС
 P = -pedantic
 DB = -g -O0
 LIB_DIR = brick_game/tetris
